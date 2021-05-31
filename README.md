@@ -27,16 +27,16 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <a href="https://github.com/othneildrew/Best-README-Template">
+  <a href="https://github.com/godgodwinter/README-TEMPLATE-laravel">
     <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
-  <h3 align="center">iNetwork Versi PreAlpha 1.21.03.05</h3>
+  <h3 align="center">Judul Versi PreAlpha 1.21.03.05</h3>
 
   <p align="center">
-    Sistem Penunjang Usaha Jaringan RTRW
+    Keterangan Sistem yang dibuat
     <br />
-    <a href="https://github.com/godgodwinter/inetwork"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/godgodwinter/README-TEMPLATE-laravel"><strong>Explore the docs »</strong></a>
     <br />
     <br />
     <a href="https://inetwork.baemon.web.id">View Demo https://inetwork.baemon.web.id</a>
@@ -66,12 +66,6 @@
         <li><a href="#installation">Installation</a></li>
       </ul>
     </li>
-    <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
-    <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgements">Acknowledgements</a></li>
   </ol>
 </details>
 
@@ -80,9 +74,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot-dashboardluar]](https://github.com/godgodwinter/inetwork)
-[![Product Name Screen Shot][product-screenshot-dashboardlm]](https://github.com/godgodwinter/inetwork)
-[![Product Name Screen Shot][product-screenshot-tagihan]](https://github.com/godgodwinter/inetwork)
+[![Product Name Screen Shot][product-screenshot-dashboardluar]](https://github.com/godgodwinter/README-TEMPLATE-laravel)
 
 Ketika usaha jaringan internet anda semakin berkembang maka semakin banyak data yang perlu anda kelola. Untuk itu dengan sistem ini diharapkan dapat membantu usaha jaringan anda.
 
@@ -117,7 +109,7 @@ This is an example of how to list things you need to use the software and how to
 <!-- 1. Get a free API Key at [https://example.com](https://example.com) -->
 1. Clone the repo
    ```sh
-   git clone https://github.com/godgodwinter/inetwork.git
+   git clone https://github.com/godgodwinter/README-TEMPLATE-laravel.git
    ```
 2. Install menggunakan composer
    ```sh
@@ -156,10 +148,6 @@ Buka browser dan tulis alamat berikut
    ```sh
    http://127.0.0.1:8000/
    ```
-
-<!-- USAGE EXAMPLES -->
-## Usage
-
 
 
 <!-- LICENSE -->
