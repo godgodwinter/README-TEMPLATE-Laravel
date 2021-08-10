@@ -76,18 +76,23 @@
 
 [![Product Name Screen Shot][product-screenshot-dashboardluar]](https://github.com/godgodwinter/README-TEMPLATE-laravel)
 
-Ketika usaha jaringan internet anda semakin berkembang maka semakin banyak data yang perlu anda kelola. Untuk itu dengan sistem ini diharapkan dapat membantu usaha jaringan anda.
+Sistem .
 
 ### Built With
 
 This section should list any major frameworks that you built your project using. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
-* [Bootstrap](https://getbootstrap.com)
-* [JQuery](https://jquery.com)
+Tools and Framework
 * [Laravel 8](https://laravel.com)
 * [PHP 7.4+](https://php.net)
 * [Nodejs](https://node.js)
 * [gitbash](https://git-scm.com/downloads)
 * [composer](https://getcomposer.org/)
+
+Library/Plugin
+* [Auth:Fortify](#)
+* [Auth:Jetstream](#)
+* [Bootstrap 4](https://getbootstrap.com/docs/4.0/getting-started/introduction/)
+* [Stisla](https://github.com/stisla/stisla)
 
 
 
@@ -116,11 +121,18 @@ This is an example of how to list things you need to use the software and how to
    composer install
    ```
 3. Buat file .env atau copy dan edit file .env_copy kemudian sesuaikan dengan database anda
+   ```sh
+   cp .env_example .env 
+   ```
+   Gunakan editor kesukaan anda. Jika mengedit menggunakan nano lakukan langkah berikut:
+
+   ```sh
+   nano .env //ubah database user dan password database di perangkat anda
+   ```
 
 4. jalankan server Laravel
    ```sh
    php artisan serve
-   ```
 5. lakukan migrasi database
    ```sh
    php artisan migrate
@@ -131,15 +143,7 @@ This is an example of how to list things you need to use the software and how to
    ```
 6. Jika ingin menggunakan data palsu untuk testing lanjutkan langkah 6 ini
    ```sh
-   php artisan db:seed --class=userseeder  //untuk meload data user admin@gmail.com pass 12345678
-   ```
-
-   ```sh
-   php artisan db:seed --class=paketseeder  //untuk meload data paket, jenis alat, jenis pendapatan , jenis pengeluaran dll
-   ```
-
-   ```sh
-   php artisan db:seed  //untuk meload data pengaturan default, nama web, motto, logo dll
+   php artisan db:seed --class=oneseeder  //untuk meload data user admin@gmail.com pass 12345678
    ```
    
 
